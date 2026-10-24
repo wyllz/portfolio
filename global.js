@@ -92,3 +92,28 @@ export async function fetchJSON(url) {
     console.error('Error fetching or parsing JSON data:', error);
   }
 }
+export function renderProjects(projects, containerElement, headingLevel = 'h2') {
+  if (!containerElement) {
+    console.error('renderProjects: container element not found');
+    return;
+  }
+  // Only allow real heading tags
+  if (!/^h[1-6]$/.test(headingLevel)) headingLevel = 'h2';
+
+  containerElement.innerHTML = ''; // clear old content so nothing is duplicated
+
+  if (!projects || projects.length === 0) {
+    containerElement.innerHTML = '<p>No projects to show yet.</p>';
+    return;
+  }
+
+  for (const project of projects) {
+    const article = document.createElement('article');
+    article.innerHTML = `
+      <${headingLevel}>${project.title}</${headingLevel}>
+      <img src="${project.image}" alt="${project.title}">
+      <p>${project.description}</p>
+    `;
+    containerElement.appendChild(article);
+  }
+}
