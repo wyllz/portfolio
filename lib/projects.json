@@ -1,8 +1,9 @@
 [
 	{
-		"title": "Lorem ipsum dolor sit.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+		"title": "Spotify EDA",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Predicting song popularity from Spotify audio features."
 	},
 	{
 		"title": "Architecto minima sed omnis?",
