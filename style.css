@@ -143,3 +143,22 @@ time {
   right: 1rem;
   font-size: 80%;
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+#profile-stats dt {
+  grid-row: 1;
+  color: var(--color-muted);
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
