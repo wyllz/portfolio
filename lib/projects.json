@@ -3,7 +3,7 @@
 		"title": "Spotify EDA",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Predicting song popularity from Spotify audio features."
+        "description": "Predicting song popularity from Spotify audio features. Trained model using sklearn"
 	},
 	{
         "title": "IDX Exchange Data Analyst",
