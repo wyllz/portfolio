@@ -82,7 +82,6 @@ function $$(selector, context = document) {
 export async function fetchJSON(url) {
   try {
     const response = await fetch(url);
-    console.log(response); // check it in the Console, then you can delete this line
     if (!response.ok) {
       throw new Error(`Failed to fetch projects: ${response.statusText}`);
     }
