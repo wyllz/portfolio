@@ -1,8 +1,9 @@
 [
 	{
 		"title": "Spotify EDA",
-        "year": "2025",
+        "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"url": "https://wyllz.github.io/spotify-analysis/",
         "description": "Predicting song popularity from Spotify audio features. Trained model using sklearn"
 	},
 	{
@@ -12,17 +13,19 @@
         "description": "Exploratory Data Analysis on 28+ California MLS data"
     },
     {
-        "title": "BikeScouting Project",
-        "year": "2026",
-        "image": "https://wyllz.github.io/bikescouting/",
-        "description": "An immersive, interactive map visualization of bike traffic in the Boston area during different times of the day"
-    },
+		"title": "BikeScouting Project",
+		"year": "2026",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"url": "https://wyllz.github.io/bikescouting/",
+		"description": "An immersive, interactive map visualization of bike traffic in the Boston area during different times of the day"
+	},
     
 	{
-		"title": "Asperiores rem repellendus doloremque.",
-        "year": "2024",
+		"title": "SpendSnap",
+        "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "..."
+		"url": "https://github.com/Sunisa-Yuki/SpendSnap.git",
+        "description": "SpendSnap turns a receipt photo into transaction and line-item data, then gives students a simple view of where their everyday spending goes."
 	},
 	{
 		"title": "Asperiores rem repellendus doloremque.",
